@@ -1,0 +1,252 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    margin: 0;
+}
+nav{
+    height: 50px;
+    padding: 5px;
+    margin: 0;
+    background-color: darkslategray;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding-right: 30px;
+    display: inline;
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*upper section*/
+.contentarea{
+    width: 95%;
+    padding-left: 2.5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.upper{
+    margin-top: -50px;
+    padding-bottom: 50px;
+    text-align: center;
+    min-height: 300px; 
+    background-image: url('../Sumeet Fartyal_6038_php/Media/upper_section_image.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+    color: white;
+}  
+.upper>h1{
+    padding-top: 80px;
+}
+.upper>p{
+    
+    margin-left: 26%;
+    width: 48%;
+}
+#button button{  
+    margin: 10px;
+    padding: 10px 40px 10px 40px;
+    color: white;
+}
+
+.cards{
+    width: 28%;
+    display: inline-block;
+    margin:16px;
+    padding: 16px;
+    margin-bottom: 4%;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px grey;
+}
+.image img{
+    width: 100%;
+    height: 230px;
+    border-radius: 2px;
+}
+.profile{
+    width: 16%;
+    height: 60px;
+    background-size: cover;
+    border-radius: 2px;
+    float: left;
+}
+.profile1{
+    background-image: url('../Sumeet Fartyal_6038_php/Media/profilee1.jpg');
+}
+.profile2{
+    background-image: url('../Sumeet Fartyal_6038_php/Media/profile2.jpg');
+}
+.profile3{
+    background-image: url('../Sumeet Fartyal_6038_php/Media/profile3.jpg');
+}
+.quote{
+    width: 80%;
+    float: right;
+}
+.quote p{
+    margin-top: 7px;
+    color: grey;
+}
+.content{
+    padding-top: 10px;
+}
+.content img{
+    width: 100%;
+}
+
+
+
+/* Lower */
+.lower{
+    width: 28.5%;
+    display: inline-block;
+    margin:19px;
+    padding: 10px;
+    
+    padding-left: 5px;
+}
+.lowerimg{
+    width: 24%;
+    height: 88px;
+    float: left;
+}
+.lowerquote{
+    margin-top: -12px;
+    padding-left: 15px;
+    width: 67%;
+    float: right;
+}
+.lowerimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/* featured */
+.featured{
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+.featured p{
+    font-weight: bold;
+    color: gray;
+    float: left;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.logo{
+    float: left;    
+    width: 12%;
+    margin-right: 60px;
+    margin-top: 30px;
+    height: 100px;
+}
+.f{
+    width: 10%;
+    display: inline;
+}
+.logo img{
+    width: 100%;
+}
+
+
+/* FOOTER */
+footer{
+    width: 95.2%;
+    height: 180px;
+    padding: 30px 0px 30px 65px;
+    background-color:#36454F;
+}
+footer p{
+    color: white;
+}
+.leftfoot{
+    float: left;
+    margin-right: 65px;
+}
+.fa {
+    padding: 20px 40px 80px 20px;
+    font-size: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .fa-vimeo {
+    color: white;
+    margin-right: 20px;
+    padding-left: 0;
+  }
+  .fa-twitter {
+    color: white;
+    padding-right: 0;
+  }
+.rightfoot{
+    float: right; 
+}  
+
+
+
+/* Media Query */
+@media screen and (max-width:1025px) {
+    .upper>p{
+    
+        margin-left: 15%;
+        justify-content: center;
+        width: 70%;
+    }
+    .cards{
+        width: 30%;
+        display: inline-block;
+        margin:8px;
+        padding: 5px;
+        margin-bottom: 4%;
+        border-radius: 3px;
+        box-shadow: 1px 1px 10px grey;
+    }
+    .lower{
+        width: 30%;
+        display: inline-block;
+        margin:5px;
+        padding: 5px;
+        padding-left: 5px;
+    }
+    .lowerimg{
+        width: 24%;
+        height: 70px;
+        float: left;
+    }
+    .lowerquote{
+        margin-top: -12px;
+        padding-left: 15px;
+        width: 67%;
+        float: right;
+        font-size: small;
+    }
+    .logo{
+        float: left;    
+        width: 10%;
+        margin-right: 60px;
+        margin-top: 30px;
+        height: 100px;
+    }  
+}
